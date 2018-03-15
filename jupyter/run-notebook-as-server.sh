@@ -10,7 +10,7 @@
 
 #!/bin/bash
 
-source activate $1
-cd $2
-jupyter notebook --ip="*" --port=8888
+envName=jupyter
 
+source activate $envName
+jupyter notebook --ip="*" --port=8888

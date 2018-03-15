@@ -4,9 +4,9 @@
 #	* Conda
 
 #!/bin/bash
+envName=jupyter
 
-conda create -n scala
-source activate scala
+source activate $envName
 
 git clone https://github.com/alexarchambault/jupyter-scala.git
 cd jupyter-scala
